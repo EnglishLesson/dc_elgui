@@ -28,6 +28,10 @@ h4{
     font-weight: 900;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 /******************************
     MARGINS AND PADDINGS
 ******************************/
@@ -175,8 +179,16 @@ h4{
     Structure Dimentions
 ******************************/
 /*****QUESTIONNAIRE*****/
+.activity-title{
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+}
+
 .questionnaire{
-    
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
 }
 
 .questionnaire .row{
@@ -188,6 +200,15 @@ h4{
 ******************************/
 .el-btn{
     margin: 3px 5px;
+}
+
+/******************************
+            HEADER
+******************************/
+.headerbg{
+    background-image: url('../images/bg1.jpg');
+    background-position: center center;
+    background-size: cover;
 }
 
 /******************************
